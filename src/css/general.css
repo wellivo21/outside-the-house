@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #ffa500
+}
+
+* {
+    font-family: "Oswald";
+}
+
+
+html {
+    /* 62.5% = 10px. 1rem = 10px  */
+    font-size: 62.5%;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+}
+
+h2 {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+}
+
+  
